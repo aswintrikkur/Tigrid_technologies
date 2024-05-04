@@ -1,0 +1,14 @@
+:root {
+	--bg-color-primary: rgba(255, 255, 255, 1);
+	--bg-color-secondary: rgba(0, 0, 0, 1);
+	--bg-color-ternary: rgba(28, 26, 26, 1);
+
+    --text-color-primary:rgba(255, 255, 255, 1);
+
+
+    --highlight-primary:rgba(242, 108, 83, 1);
+    --highlight-secondary:rgba(217, 217, 217, 0.2);
+
+    /* --border-color-primary: */
+
+}
