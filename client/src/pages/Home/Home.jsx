@@ -3,7 +3,7 @@ import "./Home.scss";
 import { Container } from "../../components/shared/Container/Container";
 import { SearchComponent } from "../../components/Home/SearchComponent";
 import { PrimaryButton } from "../../components/shared/Button/Button";
-import { PrimaryCard } from "../../components/shared/Card/Card";
+import { PrimaryCard, SecondaryCard } from "../../components/shared/Card/Card";
 
 export const Home = () => {
 	return (
@@ -117,19 +117,31 @@ export const Home = () => {
 							<div className="co3">
 								<img src="/images/image11.png" alt="image11" />
 								<img src="/images/image12.png" alt="image12" />
-								<PrimaryButton text='View All' width='100%'/>
+								<PrimaryButton text="View All" width="100%" />
 							</div>
-
 						</div>
 					</div>
 				</section>
 
 				{/* ------------------	section5 ------------------- */}
 				<section className="section5">
-
-					<div className="row2">
-						<img src="" alt="" />
+					<div className="row1">
+						<div className="img-container">
+							<img src="/icons/icon7.png" alt="icon7" />
+						</div>
+						<div className="img-container">
+							<img src="/icons/icon8.png" alt="icon8" />
+						</div>
+						<div className="img-container">
+							<img src="/icons/icon9.png" alt="icon9" />
+						</div>
+						<div className="img-container">
+							<img src="/icons/icon10.png" alt="icon10" />
+						</div>
 					</div>
+
+					<hr />
+
 					<div className="row2">
 						<div className="content">
 							<h1>60+</h1>
@@ -148,9 +160,30 @@ export const Home = () => {
 							<p>Lorem Ipsum</p>
 						</div>
 					</div>
+
+					<hr />
 				</section>
 
-				
+				{/* -------------------- section6 ---------------- */}
+				<section className="section6">
+				<h5>Lorem Ipsum</h5>
+					<h2>Lorem Ipsum is simply dummy</h2>
+					<p>
+						Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been
+						the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of
+						type and scrambled
+					</p>
+
+					<div className="card-container">
+						<SecondaryCard src='/images/image14.png'/>
+						<SecondaryCard src='/images/image14.png'/>
+						<SecondaryCard src='/images/image14.png'/>
+						<SecondaryCard src='/images/image14.png'/>
+						<SecondaryCard src='/images/image14.png'/>
+					</div>
+
+				</section>
+
 			</Container>
 		</div>
 	);

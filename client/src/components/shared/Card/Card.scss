@@ -1,15 +1,15 @@
-.card-container {
+.primary-card-container {
 	width: 592px;
 	height: 198px;
 	border-radius: 25px;
 	border: 1px;
 	box-shadow: 2px 2px 4px 0px rgba(0, 0, 0, 0.08);
 	background-color: var(--bg-color-primary);
-    margin: 10px;
+	margin: 10px;
 
 	display: flex;
-    justify-content: center;
-    align-items: center;
+	justify-content: center;
+	align-items: center;
 
 	gap: 40px;
 
@@ -29,12 +29,12 @@
 	.content {
 		font-family: Bona Nova;
 		width: 330px;
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
+		display: flex;
+		flex-direction: column;
+		justify-content: center;
 
 		.title {
-            font-family: "Gill Sans";
+			font-family: "Gill Sans";
 			font-size: 28px;
 			font-weight: 400;
 			line-height: 33.6px;
@@ -43,12 +43,45 @@
 		}
 		.desc {
 			margin-top: 10px;
-            margin-bottom: 0;
+			margin-bottom: 0;
 			font-size: 17px;
 			font-weight: 400;
 			line-height: 27px;
 			text-align: justify;
 			color: rgba(24, 24, 24, 1);
+		}
+	}
+}
+
+.secondary-card-container {
+	width: 350px;
+	height: 540px;
+
+	border: 1px solid #C1C1C1;
+	border-radius: 15px;
+
+	display: flex;
+	flex-direction: column;
+
+	.content{
+		padding: 20px;
+
+		.rating {
+			display: flex;
+		place-items: center;
+		height: 40px;
+		// align-items: center;
+		
+		img{
+
+			// height: fit-content;
+		}
+			p{
+				// height: 40px;
+				margin-top: 45px;
+				font-weight: 600;
+				padding-left: 10px;
+			}
 		}
 	}
 }
