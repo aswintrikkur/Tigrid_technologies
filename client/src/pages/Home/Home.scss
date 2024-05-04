@@ -1,0 +1,181 @@
+.home-container {
+	position: relative;
+
+	//---------- section2 ----------------
+	.section1 {
+		.banner-container {
+			width: 100%;
+			height: 1008px;
+			z-index: 1;
+			position: relative;
+
+			.title-container {
+				position: absolute;
+				left: 50px;
+				top: 250px;
+
+				width: 1174px;
+				height: 348px;
+
+				color: var(--text-color-primary);
+
+				h1 {
+				}
+
+				h4 {
+					margin-top: 27px;
+					font-size: 40px;
+					font-weight: 400;
+				}
+			}
+		}
+	}
+
+	.searchComponent {
+		position: absolute;
+		top: 1000px;
+		z-index: 2;
+	}
+
+	// -----------section2 ------------------
+	.section2 {
+		height: 1050px;
+		display: flex;
+		gap: 70px;
+		padding: 230px 50px 70px 60px;
+
+		.images-container {
+			display: flex;
+			// background-color: red;
+			height: fit-content;
+
+			img {
+				margin: 5px;
+			}
+
+			.col1 {
+				align-self: center;
+			}
+			.col2 {
+			}
+		}
+		.desc-container {
+			text-align: left;
+
+			h5 {
+				font-size: 30px;
+				font-weight: 400;
+				line-height: 36px;
+			}
+			h2 {
+				font-family: "Gill Sans";
+				text-transform: uppercase;
+				font-size: 50px;
+				font-weight: 700;
+				line-height: 60px;
+				margin-top: 20px;
+				margin-bottom: 90px;
+			}
+			p {
+				font-family: Content;
+				font-size: 21px;
+				font-weight: 400;
+				line-height: 38.63px;
+				height: 225px;
+				width: 910px;
+			}
+		}
+	}
+
+	// ---------- section3 -------------
+	.section3 {
+		height: 843px;
+		background-color: var(--bg-color-secondary);
+		color: var(--bg-color-primary);
+
+		padding: 70px 65px;
+
+		h5 {
+			margin-bottom: 18px;
+		}
+		h2 {
+			margin-bottom: 25px;
+		}
+		p {
+			margin-bottom: 48px;
+			width: 90%;
+			font-size: 21px;
+		}
+		.facilities {
+			.row {
+				display: flex;
+			}
+		}
+	}
+
+	// ---------- section4 -------------
+	.section4 {
+		height: 1000px;
+		background-color: var(--bg-color-primary);
+		color: var(--bg-color-secondary);
+
+		padding: 70px 65px;
+
+		h5 {
+			margin-bottom: 18px;
+			padding-left: 10px;
+		}
+		h2 {
+			margin-bottom: 25px;
+		}
+		p {
+			margin-bottom: 48px;
+			width: 90%;
+			font-size: 21px;
+		}
+
+		.image-container {
+			display: flex;
+			.left {
+				position: relative;
+				img {
+				}
+				.content {
+					position: absolute;
+					left: 50%;
+					top: 50%;
+					translate: -50% -50%;
+					text-align: center;
+					color: var(--bg-color-primary);
+
+					h2 {
+						font-family: sans-serif;
+						text-transform: none;
+						font-weight: 300;
+
+						span {
+							font-weight: 700;
+						}
+					}
+				}
+			}
+			.right {
+				display: flex;
+				margin: 0 12px;
+				img {
+					margin: 0 6px;
+					margin-bottom: 10px;
+				}
+				.col1 {
+				}
+				.col2 {
+				}
+				.col3 {
+				}
+			}
+		}
+	}
+
+	// ------------- section5 -------------
+
+}

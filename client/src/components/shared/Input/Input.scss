@@ -1,0 +1,12 @@
+.input-container {
+	input, select {
+        background-color: var(--highlight-secondary);
+        color: rgba(255, 255, 255, 0.3);
+        height: 70px;
+        padding: 15px 25px;
+		border-radius: 10px ;
+		border: 1px ;
+
+        font-size: 19px;
+	}
+}

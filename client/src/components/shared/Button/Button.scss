@@ -1,0 +1,14 @@
+.primary-button-container{
+
+    button{
+
+        height: 68px;
+        background-color: var(--highlight-primary);
+        color: var(--bg-color-primary);
+        font-size: 21px;
+        font-weight: 600;
+        border-radius: 10px;
+
+        padding: 0 30px;
+    }
+}
