@@ -1,9 +1,10 @@
 import React from "react";
 import "./Home.scss";
 import { Container } from "../../components/shared/Container/Container";
-import { SearchComponent } from "../../components/Home/SearchComponent";
+import { SearchComponent } from "../../components/Home/SearchComponent/SearchComponent";
 import { PrimaryButton } from "../../components/shared/Button/Button";
-import { PrimaryCard, SecondaryCard } from "../../components/shared/Card/Card";
+import { Card3, PrimaryCard, ReviewCard, SecondaryCard } from "../../components/shared/Card/Card";
+import { ContentComponent } from "../../components/Home/ContentComponent/ContentComponent";
 
 export const Home = () => {
 	return (
@@ -40,34 +41,40 @@ export const Home = () => {
 						</div>
 					</div>
 					<div className="desc-container">
-						<h5>Lorem Ipsum</h5>
-						<h2>Lorem Ipsum is simply dummy</h2>
+						<ContentComponent>
+							<h5>Lorem Ipsum</h5>
+							<h2>Lorem Ipsum is simply dummy</h2>
 
-						<p>
-							Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has
-							been the industry's standard dummy text ever since the 1500s, when an unknown printer took a
-							galley of type and scrambled it to make a type specimen book. It has survived not only five
-							centuries, but also the leap into electronic typesetting, remaining essentially unchanged.
-						</p>
-						<p>
-							Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has
-							been the industry's standard dummy text ever since the 1500s, when an unknown printer took a
-							galley of type and scrambled it to make a type specimen book. It has survived not only five
-							centuries, but also the leap into electronic typesetting, remaining essentially unchanged.
-						</p>
-						<PrimaryButton text="Read More" />
+							<p>
+								Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has
+								been the industry's standard dummy text ever since the 1500s, when an unknown printer took
+								a galley of type and scrambled it to make a type specimen book. It has survived not only
+								five centuries, but also the leap into electronic typesetting, remaining essentially
+								unchanged.
+							</p>
+							<p>
+								Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has
+								been the industry's standard dummy text ever since the 1500s, when an unknown printer took
+								a galley of type and scrambled it to make a type specimen book. It has survived not only
+								five centuries, but also the leap into electronic typesetting, remaining essentially
+								unchanged.
+							</p>
+							<PrimaryButton text="Read More" />
+						</ContentComponent>
 					</div>
 				</section>
 
 				{/* ------------------- section3 ---------------- */}
 				<section className="section3">
-					<h5>Lorem Ipsum</h5>
-					<h2>Lorem Ipsum is simply dummy</h2>
-					<p>
-						Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been
-						the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of
-						type and scrambled
-					</p>
+					<ContentComponent>
+						<h5>Lorem Ipsum</h5>
+						<h2>Lorem Ipsum is simply dummy</h2>
+						<h6>
+							Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has
+							been the industry's standard dummy text ever since the 1500s, when an unknown printer took a
+							galley of type and scrambled
+						</h6>
+					</ContentComponent>
 
 					<div className="facilities">
 						<div className="row">
@@ -85,13 +92,15 @@ export const Home = () => {
 
 				{/* ------------------	section4 ------------------- */}
 				<section className="section4">
-					<h5>Lorem Ipsum</h5>
-					<h2>Lorem Ipsum is simply dummy</h2>
-					<p>
-						Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been
-						the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of
-						type and scrambled
-					</p>
+					<ContentComponent>
+						<h5>Lorem Ipsum</h5>
+						<h2>Lorem Ipsum is simply dummy</h2>
+						<h6>
+							Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has
+							been the industry's standard dummy text ever since the 1500s, when an unknown printer took a
+							galley of type and scrambled
+						</h6>
+					</ContentComponent>
 
 					<div className="image-container">
 						<div className="left">
@@ -164,27 +173,78 @@ export const Home = () => {
 					<hr />
 				</section>
 
-				{/* -------------------- section6 ---------------- */}
+				{/* -------------------- section6 / LOCATIONS ---------------- */}
 				<section className="section6">
-				<h5>Lorem Ipsum</h5>
-					<h2>Lorem Ipsum is simply dummy</h2>
-					<p>
-						Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been
-						the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of
-						type and scrambled
-					</p>
+					<ContentComponent>
+						<h5>Lorem Ipsum</h5>
+						<h2>Lorem Ipsum is simply dummy</h2>
+						<h6>
+							Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has
+							been the industry's standard dummy text ever since the 1500s, when an unknown printer took a
+							galley of type and scrambled it to make a type specimen book. It has survived
+						</h6>
+					</ContentComponent>
 
 					<div className="card-container">
-						<SecondaryCard src='/images/image14.png'/>
-						<SecondaryCard src='/images/image14.png'/>
-						<SecondaryCard src='/images/image14.png'/>
-						<SecondaryCard src='/images/image14.png'/>
-						<SecondaryCard src='/images/image14.png'/>
+						<SecondaryCard src="/images/image14.png" />
+						<SecondaryCard src="/images/image15.png" rating="4.3" price="2000" />
+						<SecondaryCard src="/images/image16.png" rating="4.9" price="3454" />
+						<SecondaryCard src="/images/image17.png" rating="4.2" />
+						<SecondaryCard src="/images/image18.png" />
 					</div>
-
 				</section>
 
+				{/* ----------------------- section7 -------------------- */}
+				<section className="section7">
+					<div className="left">
+						<ContentComponent colorWhite>
+							<h5>Lorem Ipsum</h5>
+							<h2>Lorem Ipsum is simply dummy</h2>
+
+							<p>
+								Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has
+								been the industry's standard dummy text ever since the 1500s, when an unknown printer took
+								a galley of type and scrambled it to make a type specimen book. It has survived not only
+								five centuries, but also the leap into electronic typesetting, remaining essentially
+								unchanged. It was popularised in the 1960s with the release of Letraset sheets containing
+								Lorem Ipsum passages,
+							</p>
+							<PrimaryButton text="View All" />
+						</ContentComponent>
+					</div>
+					<div className="right">
+						<div className="col1">
+							<Card3 src="/icons/icon11.png" />
+							<Card3 src="/icons/icon12.png" />
+						</div>
+						<div className="col2">
+							<Card3 src="/icons/icon13.png" />
+							<Card3 src="/icons/icon14.png" />
+						</div>
+					</div>
+				</section>
+
+				{/* ----------------section8 / REVIEWS -------------- */}
+				<section className="section8">
+					<ContentComponent>
+						<h5>Lorem Ipsum</h5>
+						<h2>Lorem Ipsum is simply dummy</h2>
+						<h6>
+							Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has
+							galley of type and scrambled
+						</h6>
+					</ContentComponent>
+						<div className="card-container">
+							<ReviewCard src='/images/profile1.png' />
+							<ReviewCard src='/images/profile2.png' />
+							<ReviewCard src='/images/profile3.png' />
+						</div>
+					
+				</section>
 			</Container>
 		</div>
 	);
 };
+
+
+

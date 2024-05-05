@@ -1,7 +1,7 @@
 import React from "react";
 import "./SearchComponent.scss";
-import { Input } from "../shared/Input/Input";
-import { PrimaryButton } from "../shared/Button/Button";
+import { Input } from "../../shared/Input/Input";
+import { PrimaryButton } from "../../shared/Button/Button";
 
 export const SearchComponent = () => {
 	return (

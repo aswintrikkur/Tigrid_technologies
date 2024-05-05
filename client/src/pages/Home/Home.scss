@@ -61,29 +61,6 @@
 		}
 		.desc-container {
 			text-align: left;
-
-			h5 {
-				font-size: 30px;
-				font-weight: 400;
-				line-height: 36px;
-			}
-			h2 {
-				font-family: "Gill Sans";
-				text-transform: uppercase;
-				font-size: 50px;
-				font-weight: 700;
-				line-height: 60px;
-				margin-top: 20px;
-				margin-bottom: 90px;
-			}
-			p {
-				font-family: Content;
-				font-size: 21px;
-				font-weight: 400;
-				line-height: 38.63px;
-				height: 225px;
-				width: 910px;
-			}
 		}
 	}
 
@@ -95,17 +72,7 @@
 
 		padding: 70px 65px;
 
-		h5 {
-			margin-bottom: 18px;
-		}
-		h2 {
-			margin-bottom: 25px;
-		}
-		p {
-			margin-bottom: 48px;
-			width: 90%;
-			font-size: 21px;
-		}
+
 		.facilities {
 			.row {
 				display: flex;
@@ -121,18 +88,6 @@
 
 		padding: 70px 65px;
 
-		h5 {
-			margin-bottom: 18px;
-			padding-left: 10px;
-		}
-		h2 {
-			margin-bottom: 25px;
-		}
-		p {
-			margin-bottom: 48px;
-			width: 90%;
-			font-size: 21px;
-		}
 
 		.image-container {
 			display: flex;
@@ -231,7 +186,7 @@
 		}
 	}
 
-	// -------------- section6 -------------
+	// -------------- section6 / Locations -------------
 	.section6 {
 		height: 1000px;
 		background-color: var(--bg-color-primary);
@@ -239,22 +194,52 @@
 
 		padding: 70px 65px;
 
-		h5 {
-			margin-bottom: 18px;
-			padding-left: 10px;
-		}
-		h2 {
-			margin-bottom: 25px;
-		}
-		p {
-			margin-bottom: 48px;
-			width: 90%;
-			font-size: 21px;
+		.card-container {
+			display: flex;
+			gap: 14px;
 		}
 	}
 
-	.card-container{
+	// --------------- section7 -------------
+	.section7 {
+		height: 670px;
+		padding: 50px;
+		background: url("/images/image19.png");
+
 		display: flex;
-		gap: 14px;
+		gap: 70px;
+
+		.left {
+			flex: 1;
+		}
+		.right {
+			flex: 1;
+
+			display: flex;
+			align-items: center;
+			justify-content: center;
+
+			.col1 {
+			}
+			.col2 {
+				margin-top: 100px;
+			}
+		}
 	}
+
+
+	//  ----------------- section8 ---------------
+	.section8{
+		height: 840px;
+		padding: 50px;
+
+		
+		.card-container{
+			margin-top: 110px;
+			display: flex;
+		}
+	}
+
+
+
 }

@@ -1,3 +1,4 @@
+//  -------------- Primary card -----------
 .primary-card-container {
 	width: 592px;
 	height: 198px;
@@ -53,34 +54,153 @@
 	}
 }
 
+//  -------------- Secondary card -----------
 .secondary-card-container {
 	width: 350px;
 	height: 540px;
 
-	border: 1px solid #C1C1C1;
+	border: 1px solid #c1c1c1;
 	border-radius: 15px;
 
 	display: flex;
 	flex-direction: column;
 
-	.content{
-		padding: 20px;
+	.content {
+		padding: 10px 20px 30px 20px;
 
 		.rating {
 			display: flex;
-		place-items: center;
-		height: 40px;
-		// align-items: center;
-		
-		img{
+			align-items: center;
+			height: 40px;
+			overflow: hidden;
+			margin-bottom: 20px;
 
-			// height: fit-content;
-		}
-			p{
-				// height: 40px;
-				margin-top: 45px;
-				font-weight: 600;
+			> img {
+			}
+			> p {
+				font-size: 22px;
+				font-weight: 500;
 				padding-left: 10px;
+			}
+		}
+		.title {
+			margin-bottom: 14px;
+			> p {
+				font-size: 25px;
+				font-family: "Gill Sans";
+			}
+		}
+		.price {
+			margin-bottom: 21px;
+			> p {
+				font-size: 20px;
+				font-weight: 800;
+				color: var(--highlight-primary);
+
+				span {
+					font-size: 16px;
+					font-weight: 400;
+					color: var(--bg-color-secondary);
+				}
+			}
+		}
+	}
+}
+
+//  -------------- Card3 -----------
+.card3-container {
+	width: 330px;
+	height: 246px;
+	border: 1px solid white;
+	border-radius: 15px;
+	margin-right: 24px;
+	margin-bottom: 24px;
+	color: var(--bg-color-primary);
+
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+
+	.icon {
+		width: 82px;
+		height: 82px;
+		border-radius: 50%;
+		margin-bottom: 20px;
+		background-color: var(--highlight-primary);
+		display: flex;
+		justify-content: center;
+		align-items: center;
+
+		> img {
+		}
+	}
+	> h5 {
+		font-size: 22px;
+	}
+}
+
+// ------------ review card -------------
+.review-card-container {
+	width: 600px;
+	height: 350px;
+	border-radius: 20px;
+	border: 1px solid rgba(0, 0, 0, 0.2);
+	background-color: rgba(251, 251, 251, 1);
+	margin-right: 15px;
+
+	position: relative;
+
+	.profile-pic {
+		position: absolute;
+		top: 0x;
+		left: 50%;
+		translate: -50% -50%;
+		width: 128px;
+		height: 128px;
+		border-radius: 50%;
+		background-color: rgba(221, 221, 221, 1);
+
+		display: flex;
+		justify-content: center;
+		align-items: center;
+
+		img {
+		}
+	}
+	.review {
+		height: 100%;
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		padding: 0 55px;
+
+		> h6 {
+			font-family: Content;
+			font-size: 18px;
+			font-weight: 400;
+			line-height: 33.11px;
+			text-align: justified;
+			color: rgba(77, 77, 77, 1);
+		}
+		.user {
+			position: absolute;
+			bottom: 30px;
+			right: 90px;
+			h5 {
+				font-family: Content;
+				font-size: 20px;
+				font-weight: 700;
+				line-height: 36.79px;
+				text-align: left;
+				color: var(--highlight-primary);
+			}
+			p {
+				font-family: Content;
+				font-size: 14px;
+				font-weight: 400;
+				line-height: 25.75px;
+				text-align: left;
 			}
 		}
 	}

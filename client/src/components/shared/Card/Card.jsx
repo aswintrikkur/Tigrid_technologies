@@ -31,10 +31,41 @@ export const SecondaryCard = ({ src, rating, title, price }) => {
 				</div>
 				<div className="price">
 					<p>
-						{price || "$1840"} <span>Per Person</span>
+						${price || "1840"} <span> Per Person</span>
 					</p>
 				</div>
 				<PrimaryButton style="2" text="Lorem Ipsum" fontLight width="100%" />
+			</div>
+		</div>
+	);
+};
+
+export const Card3 = ({ src }) => {
+	return (
+		<div className="card3-container">
+			<div className="icon">
+				<img src={src} alt="icon" />
+			</div>
+			<h5>Lorem Ipsum</h5>
+		</div>
+	);
+};
+
+export const ReviewCard = ({src}) => {
+	return (
+		<div className="review-card-container">
+			<div className="profile-pic">
+				<img src={src} alt="profile" />
+			</div>
+			<div className="review">
+				<h6>
+					Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the
+					industry's
+				</h6>
+				<div className="user">
+					<h5>Lorem Ipsum</h5>
+					<p>Youtube Blogger</p>
+				</div>
 			</div>
 		</div>
 	);
