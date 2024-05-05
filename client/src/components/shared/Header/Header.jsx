@@ -4,7 +4,7 @@ import "./Header.scss";
 export const Header = () => {
 	return (
 		<div className="header-container">
-			<div className="logo"><img src="/images/logo.png" alt="logo" /></div>
+			<div className="logo"><img src="/images/logo-black.png" alt="logo" /></div>
       
 			<div className="navbar">
 				<p>HOME</p>

@@ -205,3 +205,32 @@
 		}
 	}
 }
+
+// ------------------ LocationCard ------------
+.location-card-container {
+	display: flex;
+	align-items: center;
+	gap: 50px;
+	margin-bottom: 30px;
+
+	img {
+	}
+	.content {
+		width: 65%;
+		h5 {
+			font-family: Bona Nova;
+			font-size: 22px;
+			font-weight: 700;
+			line-height: 26.4px;
+			text-align: left;
+		}
+		p {
+			margin-top: 17px;
+			font-family: system-ui;
+			font-size: 18px;
+			font-weight: 400;
+			line-height: 33.11px;
+			text-align: justified;
+		}
+	}
+}

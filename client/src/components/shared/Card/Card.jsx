@@ -51,7 +51,7 @@ export const Card3 = ({ src }) => {
 	);
 };
 
-export const ReviewCard = ({src}) => {
+export const ReviewCard = ({ src }) => {
 	return (
 		<div className="review-card-container">
 			<div className="profile-pic">
@@ -66,6 +66,21 @@ export const ReviewCard = ({src}) => {
 					<h5>Lorem Ipsum</h5>
 					<p>Youtube Blogger</p>
 				</div>
+			</div>
+		</div>
+	);
+};
+
+export const LocationCard = ({src}) => {
+	return (
+		<div className="location-card-container">
+			<img src={src} alt="" />
+			<div className="content">
+				<h5>Lorem Ipsum is simply dummy</h5>
+				<p>
+					Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the
+					industry's
+				</p>
 			</div>
 		</div>
 	);

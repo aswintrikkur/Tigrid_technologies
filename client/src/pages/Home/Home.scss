@@ -72,7 +72,6 @@
 
 		padding: 70px 65px;
 
-
 		.facilities {
 			.row {
 				display: flex;
@@ -87,7 +86,6 @@
 		color: var(--bg-color-secondary);
 
 		padding: 70px 65px;
-
 
 		.image-container {
 			display: flex;
@@ -227,19 +225,88 @@
 		}
 	}
 
-
-	//  ----------------- section8 ---------------
-	.section8{
+	//  ----------------- section8 / Reviews ---------------
+	.section8 {
 		height: 840px;
 		padding: 50px;
 
-		
-		.card-container{
+		.card-container {
 			margin-top: 110px;
 			display: flex;
 		}
 	}
 
+	// ---------------------- sectin9 --------------------
+	.section9 {
+		height: 862px;
+		display: flex;
 
+		.left {
+			background: url("/images/image20.png");
+			width: 1000px;
+			height: 100%;
+		}
+		.right {
+			width: 920px;
+			padding: 50px;
+			background: url("/images/image21.png");
+			background-repeat: no-repeat;
+			background-position: 50% 70%;
+			background-color: black;
+			color: white;
 
+			h2 {
+				font-size: 40px;
+			}
+			p {
+				font-family: system-ui;
+			}
+		}
+	}
+
+	//  ------------------ section10 ---------------
+	.section10 {
+
+		padding: 70px 50px;
+		height: 1940px;
+
+		.location-container {
+			margin-top: 100px;
+			display: flex;
+
+			.left {
+				flex: 1;
+			}
+			.right {
+				flex: 1;
+
+				img {
+				}
+				h4 {
+					font-family: Bona Nova;
+					font-size: 30px;
+					font-weight: 700;
+					line-height: 36px;
+					text-align: left;
+					margin: 40px 0px 20px 0px;
+				}
+				p {
+					font-size: 20px;
+					font-weight: 400;
+					line-height: 36.79px;
+					text-align: left;
+					margin-bottom: 26px;
+				}
+			}
+		}
+	}
+
+	//  -------contact-component ---------
+	.contact-component{
+		position: absolute;
+		left: 50%;
+		bottom: 550px;
+		translate: -50% 0%;
+
+	}
 }

@@ -3,8 +3,9 @@ import "./Home.scss";
 import { Container } from "../../components/shared/Container/Container";
 import { SearchComponent } from "../../components/Home/SearchComponent/SearchComponent";
 import { PrimaryButton } from "../../components/shared/Button/Button";
-import { Card3, PrimaryCard, ReviewCard, SecondaryCard } from "../../components/shared/Card/Card";
+import { Card3, LocationCard, PrimaryCard, ReviewCard, SecondaryCard } from "../../components/shared/Card/Card";
 import { ContentComponent } from "../../components/Home/ContentComponent/ContentComponent";
+import { ContactComponent } from "../../components/Home/ContactComponent/ContactComponent";
 
 export const Home = () => {
 	return (
@@ -200,7 +201,6 @@ export const Home = () => {
 						<ContentComponent colorWhite>
 							<h5>Lorem Ipsum</h5>
 							<h2>Lorem Ipsum is simply dummy</h2>
-
 							<p>
 								Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has
 								been the industry's standard dummy text ever since the 1500s, when an unknown printer took
@@ -208,7 +208,8 @@ export const Home = () => {
 								five centuries, but also the leap into electronic typesetting, remaining essentially
 								unchanged. It was popularised in the 1960s with the release of Letraset sheets containing
 								Lorem Ipsum passages,
-							</p>
+							</p>{" "}
+							<br /> <br />
 							<PrimaryButton text="View All" />
 						</ContentComponent>
 					</div>
@@ -234,17 +235,75 @@ export const Home = () => {
 							galley of type and scrambled
 						</h6>
 					</ContentComponent>
-						<div className="card-container">
-							<ReviewCard src='/images/profile1.png' />
-							<ReviewCard src='/images/profile2.png' />
-							<ReviewCard src='/images/profile3.png' />
-						</div>
-					
+					<div className="card-container">
+						<ReviewCard src="/images/profile1.png" />
+						<ReviewCard src="/images/profile2.png" />
+						<ReviewCard src="/images/profile3.png" />
+					</div>
 				</section>
+
+				{/* ------------ section9 ------------------- */}
+				<section className="section9">
+					<div className="left"></div>
+					<div className="right">
+						<ContentComponent>
+							<h5>Lorem Ipsum</h5>
+							<h2>Lorem Ipsum is simply dummy</h2>
+							<p>
+								Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has
+								been the industry's standard dummy text ever since the 1500s, when an unknown printer took
+								a galley of type and scrambled it to make a type specimen book. It has survived not only
+								five centuries, but also the leap into electronic typesetting, remaining essentially
+								unchanged. It was popularised in the 1960s with the release of Letraset sheets containing
+								Lorem Ipsum passages,
+							</p>
+							<p>
+								Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has
+								been the industry's standard dummy text ever since the 1500s, when an unknown printer took
+								a galley of type and scrambled it to make a type specimen book. It has survived not only
+								five centuries, but also the leap into electronic typesetting, remaining essentially
+								unchanged. It was popularised in the 1960s with the release of Letraset sheets containing
+								Lorem Ipsum passages
+							</p>
+						</ContentComponent>
+					</div>
+				</section>
+
+				{/* -------------- section10 --------------- */}
+				<section className="section10">
+					<ContentComponent>
+						<h5>Lorem Ipsum</h5>
+						<h2>Lorem Ipsum is simply dummy</h2>
+						<h6>
+							Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has
+							been the industry's
+						</h6>
+					</ContentComponent>
+
+					<div className="location-container">
+						<div className="left">
+							<LocationCard src="/images/location1.png" />
+							<LocationCard src="/images/location2.png" />
+							<LocationCard src="/images/location3.png" />
+							<LocationCard src="/images/location4.png" />
+						</div>
+						<div className="right">
+							<img src="/images/location5.png" alt="" />
+							<h4>Lorem Ipsum is simply dummy</h4>
+							<p>
+								Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has
+								been the industry's standard dummy text ever since the 1500s, when an unknown printer took
+								a galley of type and scrambled it to make a type specimen book
+							</p>
+							<PrimaryButton text="Read More" width="171px" />
+						</div>
+					</div>
+				</section>
+
+				<div className="contact-component">
+					<ContactComponent />
+				</div>
 			</Container>
 		</div>
 	);
 };
-
-
-

@@ -8,7 +8,7 @@ export const Container = ({ children }) => {
 		<div className="higher-order-container">
 			<Header />
 			{children}
-			{/* <Footer /> */}
+			<Footer />
 		</div>
 	);
 };
