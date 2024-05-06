@@ -4,17 +4,19 @@ import "./Header.scss";
 export const Header = () => {
 	return (
 		<div className="header-container">
-			<div className="logo"><img src="/images/logo-black.png" alt="logo" /></div>
-      
+			<div className="logo">
+				<img src="/images/logo-black.png" alt="logo" />
+			</div>
+
 			<div className="navbar">
-				<p>HOME</p>
-				<p>ABOUT US</p>
-				<p>BEST OFFERS</p>
-				<p>best destinations</p>
-				<p>Easy Guide</p>
-				<p>GALLERY</p>
-				<p>FAQ</p>
-				<p>Contact</p>
+				<a href="#home">HOME</a>
+				<a href="#about">ABOUT US</a>
+				<a href="#offers">BEST OFFERS</a>
+				<a href="#destinations">best destinations</a>
+				<a href="#guide">Easy Guide</a>
+				<a href="#gallery">GALLERY</a>
+				<a href="">FAQ</a>
+				<a href="#contact">Contact</a>
 			</div>
 		</div>
 	);

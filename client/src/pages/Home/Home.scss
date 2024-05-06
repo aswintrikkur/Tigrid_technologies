@@ -1,7 +1,11 @@
 .home-container {
 	position: relative;
 
-	//---------- section2 ----------------
+	.section{
+		width: 1920px;
+	}
+
+	//---------- section1 ----------------
 	.section1 {
 		.banner-container {
 			width: 100%;
@@ -304,9 +308,10 @@
 	//  -------contact-component ---------
 	.contact-component{
 		position: absolute;
-		left: 50%;
+		// left: 50%;
+		// translate: -50% 0%;
+		left: 324px;
 		bottom: 550px;
-		translate: -50% 0%;
 
 	}
 }

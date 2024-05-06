@@ -12,7 +12,7 @@ export const Home = () => {
 		<div className="home-container">
 			<Container>
 				{/* ----------------- section1 -------------------- */}
-				<section className="section1">
+				<section className="section1 section ">
 					<div className="banner-container">
 						<img src="/images/banner 1.png" alt="banner" />
 
@@ -31,7 +31,7 @@ export const Home = () => {
 				</div>
 
 				{/* ----------------- section2 ------------------ */}
-				<section className="section2">
+				<section id="about" className="section2 section">
 					<div className="images-container">
 						<div className="col1">
 							<img src="/images/image1.png" alt="" />
@@ -66,7 +66,7 @@ export const Home = () => {
 				</section>
 
 				{/* ------------------- section3 ---------------- */}
-				<section className="section3">
+				<section className="section3 section">
 					<ContentComponent>
 						<h5>Lorem Ipsum</h5>
 						<h2>Lorem Ipsum is simply dummy</h2>
@@ -92,7 +92,7 @@ export const Home = () => {
 				</section>
 
 				{/* ------------------	section4 ------------------- */}
-				<section className="section4">
+				<section id="offers" className="section4 section">
 					<ContentComponent>
 						<h5>Lorem Ipsum</h5>
 						<h2>Lorem Ipsum is simply dummy</h2>
@@ -134,7 +134,7 @@ export const Home = () => {
 				</section>
 
 				{/* ------------------	section5 ------------------- */}
-				<section className="section5">
+				<section className="section5 section">
 					<div className="row1">
 						<div className="img-container">
 							<img src="/icons/icon7.png" alt="icon7" />
@@ -175,7 +175,7 @@ export const Home = () => {
 				</section>
 
 				{/* -------------------- section6 / LOCATIONS ---------------- */}
-				<section className="section6">
+				<section id="destinations" className="section6 section">
 					<ContentComponent>
 						<h5>Lorem Ipsum</h5>
 						<h2>Lorem Ipsum is simply dummy</h2>
@@ -196,7 +196,7 @@ export const Home = () => {
 				</section>
 
 				{/* ----------------------- section7 -------------------- */}
-				<section className="section7">
+				<section id="guide" className="section7 section">
 					<div className="left">
 						<ContentComponent colorWhite>
 							<h5>Lorem Ipsum</h5>
@@ -226,7 +226,7 @@ export const Home = () => {
 				</section>
 
 				{/* ----------------section8 / REVIEWS -------------- */}
-				<section className="section8">
+				<section className="section8 section">
 					<ContentComponent>
 						<h5>Lorem Ipsum</h5>
 						<h2>Lorem Ipsum is simply dummy</h2>
@@ -243,7 +243,7 @@ export const Home = () => {
 				</section>
 
 				{/* ------------ section9 ------------------- */}
-				<section className="section9">
+				<section className="section9 section">
 					<div className="left"></div>
 					<div className="right">
 						<ContentComponent>
@@ -270,7 +270,7 @@ export const Home = () => {
 				</section>
 
 				{/* -------------- section10 --------------- */}
-				<section className="section10">
+				<section className="section10 section">
 					<ContentComponent>
 						<h5>Lorem Ipsum</h5>
 						<h2>Lorem Ipsum is simply dummy</h2>
@@ -300,7 +300,7 @@ export const Home = () => {
 					</div>
 				</section>
 
-				<div className="contact-component">
+				<div id="contact" className="contact-component">
 					<ContactComponent />
 				</div>
 			</Container>

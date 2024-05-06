@@ -6,6 +6,9 @@
 	box-sizing: border-box;
 	font-family: system-ui;
 }
+html{
+	scroll-behavior: smooth;
+}
 
 h1 {
 	font-family: Yeseva One;
@@ -16,7 +19,8 @@ h1 {
 	text-align: left;
 }
 h2 {
-	font-family: "Gill Sans";
+	/* font-family: "Gill Sans"; */
+	font-family: Yeseva One;
 	text-transform: uppercase;
 	font-size: 50px;
 	font-weight: 700;
@@ -29,6 +33,10 @@ h5 {
 	line-height: 36px;
 }
 p {
+}
+a{
+	text-decoration: none;
+	
 }
 
 input,
